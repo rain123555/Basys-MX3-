@@ -317,7 +317,7 @@ void ADC_Init() {
 
     AD1CON3 = 0;
     AD1CON3bits.ADCS = 32; // Set Tad to 1 ?s
-    AD1CON3bits.SAMC = 10; 
+    AD1CON3bits.SAMC = 16; 
 
     ANSELBSET = 1 << 3; // Set AN3 (RB3) as analog
     TRISBSET = 1 << 3;  // Configure RB3 as input
