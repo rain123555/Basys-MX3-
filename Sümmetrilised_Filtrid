@@ -264,7 +264,6 @@ int main(void) {
             maxAmplitudeBP2 = 0;
         }
 
-        // Toggle an output for visualization
         LATEINV = 1 << 9; 
          LATBINV = 1 << 5; 
          
